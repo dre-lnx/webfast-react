@@ -1,11 +1,9 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello, React!</p>
-      </header>
-    </div>
-  )
+import React from 'react'
+
+import AppRouter from './routes/'
+
+const App = () => {
+  return <AppRouter />
 }
 
 export default App
